@@ -11,7 +11,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     style = 'diamond'
     leading_diamond = ''
     trailing_diamond = ''
-    template = ' {{ if .SSHSession }} {{ .UserName }}@{{ .HostName }}{{ end }}{{ .UserName }} '
+    template = ' {{ if .SSHSession }} {{ .UserName }}@{{ .HostName }}{{ else }}{{ .UserName }}{{ end }} '
     background = 'p:yellow'
     foreground = 'p:black'
 
