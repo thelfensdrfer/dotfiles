@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@vue/cli": "^5.0.6",
+    "create-next-app": "^13.3.0",
+    "create-nuxt-app": "^5.0.0"
+  }
+}

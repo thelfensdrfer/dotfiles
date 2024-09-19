@@ -1,0 +1,14 @@
+*.log
+qnapi.ini
+yarn.lock
+secrets
+
+configstore/
+flutter/
+gatsby/
+gcloud/
+github-copilot/
+jgit/
+node_modules/
+psysh/
+xnviewmp/
